@@ -24,9 +24,10 @@ NIC=$(ifconfig -l | tr ' ' '\n' | grep -v lo0 | head -n1)
 GATEWAY=$(route show default | grep "gateway:" | tr -s ' ' | cut -d ' ' -f 3)
 echo "nameserver $GATEWAY" > /etc/resolv.conf
 
-echo "0--------------------------------------------------------------------------------0"
-echo "| install required packages for a minimal X.org screen with Xtern and openbox wm |"
-echo "0--------------------------------------------------------------------------------0"
+echo "0-----------------------------------------0"
+echo "| install required packages for a minimal |"
+echo "| X.org screen with Xtern and openbox wm  |"
+echo "0-----------------------------------------0"
 pkg install -y xorg-server openbox xterm xset xinit xf86-input-evdev xf86-video-vesa
 
 echo "0-----------------------------------------------0"
@@ -38,9 +39,10 @@ echo "0-----------------------------------------------0"
   echo "openbox"
 ) > ~/.xinitrc
 
-echo "0-----------------------------------------------------------------------------------0"
-echo "| add /usr/local/lib to the system dll locations to make the new packages available |"
-echo "0-----------------------------------------------------------------------------------0"
+echo "0----------------------------------------------0"
+echo "| add /usr/local/lib to the system dll         |"
+echo "| locations to make the new packages available |"
+echo "0----------------------------------------------0"
 ldconfig -R /usr/local/lib
 
 echo "0---------------------------------------------------------0"
