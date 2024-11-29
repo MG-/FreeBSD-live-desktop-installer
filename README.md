@@ -4,7 +4,7 @@ This is an experimental set of scripts that's supposed to auto-install a basic g
 
 Requirements:
 
-* Any amd64/FreeBSD 14.1 testing workstation to run Qemu or Virtualbox
+* Any amd64/FreeBSD 14.1 testing workstation withn Qemu 9.0.1 and/or Virtualbox 6.1.50,4
 * Bash shell package. (Not really required but it's what this is tested with)
 * A standard ipv4 LAN with DHCP server and internet connection.
 * A FreeBSD 14.1 RELEASE bootonly ISO file.
