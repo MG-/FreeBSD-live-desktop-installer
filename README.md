@@ -15,9 +15,9 @@ Requirements:
     (3)(Storage) Attach the FreeBSD bootonly iso as cdrom
 
 How to use:
-  Run the script vm_host_networking_setup.sh 1 time to prepare the bridge adapter that both Qemu and Virtualbox can use.
-Start Qemu with command: qemu-system-x86_64 -m 4096m -cdrom FreeBSD14.1_bootonly.iso -net nic -net tap,ifname=tap0 -boot  d
-Or start Virtualbox with the same ISO.
+* Run the script vm_host_networking_setup.sh 1 time to prepare the bridge adapter that both Qemu and Virtualbox can use.
+* Start Qemu with command: qemu-system-x86_64 -m 4096m -cdrom FreeBSD14.1_bootonly.iso -net nic -net       tap,ifname=tap0 -boot  d
+* Or start Virtualbox with the same ISO.
 
 Inside the virtual machine:
   (1) init internet connection: dhclient em0
