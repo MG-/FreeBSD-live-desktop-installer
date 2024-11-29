@@ -17,8 +17,8 @@ Preparation required for Virtualbox only:
 
 How to use:
 * Run the script vm_host_networking_setup.sh 1 time to prepare the bridge adapter that both Qemu and Virtualbox can use.
-* Start Qemu by running vm_host_networking_setup.sh
-(The FreeBSD installer iso must exist in the ame directory)
+* Start Qemu by running start_qemu_vm.sh
+(This script expects the FreeBSD installer iso in the ame directory)
 * Or start Virtualbox with the same ISO.
 
 Inside the virtual machine:
