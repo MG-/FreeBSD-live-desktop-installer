@@ -23,4 +23,5 @@ Inside the virtual machine:
 * init internet connection: dhclient em0
 * get the internal.sh script somehow from a local network location and run it.
 * type startx to start a minimal X.org. (Don't close the initial xterm. It's the only I/O during this testing X session)
+
 At this point it's also possible to install a full desktop like xfce but you need more than 4GB RAM for that.
