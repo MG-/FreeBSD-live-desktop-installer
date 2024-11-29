@@ -13,6 +13,6 @@ mount_nullfs /tmp/usr/bin /usr/bin
 chmod 4555 /usr/bin/su
 pw useradd LDWG
 mkdir -p /usr/local/home/LDWG
-echo "LDWG" | pw usermod LDWG -h 0 -d /usr/local/home/LDWG
+echo "LDWG" | pw usermod LDWG -h 0 -d /usr/local/home/LDWG -g wheel
 
 
