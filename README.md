@@ -10,9 +10,9 @@ Requirements:
 * A FreeBSD 14.1 RELEASE bootonly ISO file.
 * The internal.sh script that has to be downloaded from within the live shell.
 * Preparation required for Virtualbox only:
-    (1) Create a vm without disk and give it 4GB RAM.
-    (2) Change networking setting to: bridged adapter, name tap0
-    (3)(Storage) Attach the FreeBSD bootonly iso as cdrom
+** Create a vm without disk and give it 4GB RAM.
+** Change networking setting to: bridged adapter, name tap0
+** (Storage) Attach the FreeBSD bootonly iso as cdrom
 
 How to use:
 * Run the script vm_host_networking_setup.sh 1 time to prepare the bridge adapter that both Qemu and Virtualbox can use.
