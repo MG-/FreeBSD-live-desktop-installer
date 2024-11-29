@@ -58,3 +58,4 @@ echo "| install git and download full repository of this project |"
 echo "0----------------------------------------------------------0"
 pkg install -y git
 git clone https://github.com/mg-/freebsd-live-desktop-installer
+
