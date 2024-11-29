@@ -1,6 +1,6 @@
 FreeBSD 14.1 automated installation of a X.org graphical environment
 
-This is an experimental set of scripts that's supposed to auto-install a basic graphical X screen from the "live shell" command-line that can be chosen in the FreeBSD 14.1 boot-only iso. (And most other iso's) The system will run fully in RAM, so there's no permanent storage, At this moment this automation only exists for Qemu and Virtualbox.
+This is an experimental set of scripts that's supposed to auto-install a basic graphical X screen from the "live shell" command-line that can be chosen in the FreeBSD 14.1 boot-only iso. (And most other iso's) The system will run fully in RAM, so there's no permanent storage. At this moment this automation only exists for Qemu and Virtualbox.
 
 Requirements:
 
