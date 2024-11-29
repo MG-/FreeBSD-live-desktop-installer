@@ -20,8 +20,7 @@ How to use:
 * Or start Virtualbox with the same ISO.
 
 Inside the virtual machine:
-  (1) init internet connection: dhclient em0
-  (2) get the internal.sh script somehow from a local network location and run it.
-  (3) type startx to start a minimal X.org.
-      (Don't close the initial xterm. It's the only I/O during this testing X session)
-      At this point it's also possible to install a full desktop like xfce but you need more than 4GB RAM for that.
+* init internet connection: dhclient em0
+* get the internal.sh script somehow from a local network location and run it.
+* type startx to start a minimal X.org. (Don't close the initial xterm. It's the only I/O during this testing X session)
+At this point it's also possible to install a full desktop like xfce but you need more than 4GB RAM for that.
